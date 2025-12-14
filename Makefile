@@ -18,6 +18,5 @@ stop:
 	docker stop duckdb-server && docker rm duckdb-server
 
 clean:
-	docker rm duckdb-server
 	docker rmi duckdb/duckdb:latest
 	rm -rf ./data/*.tgz ./data/*.csv
