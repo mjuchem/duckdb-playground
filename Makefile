@@ -18,4 +18,4 @@ stop:
 
 clean:
 	docker rmi duckdb/duckdb:latest
-	rm -rf ./data/*.tgz ./data/*.csv
+	rm -rf ./data/*.csv
